@@ -22,7 +22,7 @@ body {
 }
 .inputs {
   margin-top: 1vh;
-  max-width: 500px;
+  max-width: 600px;
 }
 .country-side {
   display: flex;
@@ -183,12 +183,19 @@ h1 {
 }
 @media (max-width: 535px) {
   .content {
+    padding-left: 1vw;
     width: 100%;
   }
   .forms {
     width: 100%;
   }
-  .inputs input {
-    width: 100%;
+  .inputs {
+    width: 80%;
+  }
+  .count {
+    display: flex;
+  }
+  .inputs-side {
+    width: 140%;
   }
 }
